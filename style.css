@@ -73,6 +73,19 @@ nav ul li a:hover{
     border-bottom: 2px solid #fff;
     transition: all 0.2s;
 }
+.show-menu{
+    display: none;
+    color: #fff;
+    float: right;
+    font-size: 30px;
+}
+#show-menu{
+    display: none;
+}
+nav input[type=checkbox]:checked ~.main-menu{
+    display: block;
+}
+
 .site-title{
     clear: both;
     text-align: center;
@@ -229,11 +242,64 @@ footer span:nth-child(1){
     color: #fff;   
 }
 footer span:nth-child(2){
-    float: left;
+    float:left;
     margin-left:10px;    
 }
 footer span:nth-child(2) a{
     text-decoration: none;
     color:#fff; 
     margin: 25px 0 0 5px;
+}
+
+/**************************media Query**************/
+@media screen and (max-width:495px){
+    .logo{
+        display: none;
+    }
+    .down{
+        display: none;
+    }
+   .site-title{
+        font-size: 20px;
+    }
+    
+    .site-title a{
+        font-size: 18px;
+    }
+    .show-menu{
+        display: block;
+        margin: 5px;   
+    }
+    nav ul li{
+        display: block;
+        margin: 0;
+        text-align: center;
+    }
+    .show-menu{
+        display: block;
+        margin: 5px;
+    }
+    nav ul li{
+        display: block;
+        margin: 0;
+        text-align: center;
+        padding: 5px 0;
+        background-color: darkorchid;
+        border-bottom: 1px solid #fff;
+    }
+    nav ul li:hover{
+        background-color: #9b49c3;
+    }
+    nav.navbar{
+        line-height: normal;
+        width: 100%;
+        display:inline-block;
+    }
+    nav ul li a:hover{
+    padding-bottom: 0;
+    border-bottom:0;
+}
+    nav ul.main-menu{
+        display: none;
+    }
 }
