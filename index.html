@@ -1,156 +1,199 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="fontawesome-free/css/all.min.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <meta name=”viewport” content=”width=device-width, initial-scale=1.0” >
+    <title>قهوه سرای تاپ لرن</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/responsive.css">
 
-    </head>
+</head>
 <body>
     <header>
-        <div class="container">
-          <div class="navigation">
-            <div class="logo"></div>
-              <label for="show-menu" class="show-menu">
-              <i class="fas fa-bars"></i>
-              </label>
-              
-              <nav class="navbar">
-               <input type="checkbox" id="show-menu">
-               <ul class="main-menu">
-                  <li><a href="#">صفحه اصلی</a></li>
-                  <li><a href="#">دوره ها</a></li>
-                  <li><a href="#">درباره ما</a></li>
-                  <li><a href="#">تماس با ما</a></li>
-              </ul>     
-              </nav> 
-            
-        </div>
-        <div class="site-title">
-            <h1>آموزش تک</h1>
-            <h2>مرجع آموزش آنلاین</h2>
-            <a href="#"> نمایش همه ی دوره های آموزشی</a> 
-        </div>
-        <div class="down">
-            <a href="#">
-            <i class="fas fa-chevron-down"></i>
-            </a>
-            
-        </div>    
-        
-        </div>
+           <div class="background-overlay">
+            <nav>
+                <div class="container"> 
+                    <div class="hamburger-icon">
+                        <img src="images/Hamburger_icon.png">
+                    </div>       
+                         <ul>
+                         <li><a href="">خانه</a></li>
+                         <li><a href="">قهوه</a></li>
+                         <li><a href="">کیک</a></li>
+                         <li><a href="">نوشیدنی</a></li>
+                         <li><a href="">درباره ما</a></li>
+                         <li><a href="">تماس با ما</a></li>
+                     </ul>
+                     <div class="logo">
+                         <img src="images/logo.svg" alt="">
+                     </div>
+                </div>
+             </nav>
+             
+            <nav id="responsive-navigation">
+                <ul>
+                    <li><a href="">خانه</a></li>
+                    <li><a href="">قهوه</a></li>
+                    <li><a href="">کیک</a></li>
+                    <li><a href="">نوشیدنی</a></li>
+                    <li><a href="">درباره ما</a></li>
+                    <li><a href="">تماس با ما</a></li>
+                </ul>
+            </nav>
+
+             <div class="container">
+             <div class="header-title">
+                 <h2>قهوه های ما چه طعمی هستن؟</h2>
+                 <p>فقط کافیه یک بار امتحان کنید همون یک بار کافیه تا عاشقش بشین.</p>
+             </div>
+         </div>
+           </div>
     </header>
-    
-    <section class="category">
-    <div class="cat"><i class="fab fa-html5"></i><a href="#">HTML5</a></div>
-    <div class="cat"><i class="fab fa-css3"></i><a href="#">CSS3</a></div>
-    <div class="cat"><i class="far fa-image"></i><a href="#">Graphic</a></div>
-    <div class="cat"><i class="fab fa-apple"></i><a href="#">Apple</a></div>    
-    <div class="cat"><i class="fab fa-android"></i><a href="#">Android</a></div> <div class="cat"><i class="fab fa-wordpress-simple"></i><a href="#">Wordpress</a></div>     
+
+    <section id="our-story">
+      <div class="container">
+
+        <div class="story-description">
+            <h2>این شروع داستان ماست</h2>
+            <p>ما با داستانی عاشقانه شروع کردیم , داستانی که شروعش با یک قهوه دو نفره بود و حالا هر روز قهوه های دو نفره زوج های عاشق رو اینجا شاهد هستیم
+              .اینجا خونه ی عشقه و ما عاشق قهوه های دونفره ایم همین کافیه تا یه داستان فوق العاده رقم بخوره
+            </p>
+        </div>
+        <div class="story-img">
+            <img src="images/love.jpg" alt="">
+        </div>
+
+      </div>
+
     </section>
-    <section class="main-content">
-    <div class="container">
-        <div class="title-content">
-        <h2>آخرین مطالب سایت</h2>
+
+    <section id="Sweet">
+       <div class="sweet-overlay">
+        <div class="container">
+            <div class="sweet-description">
+                <h2>فضای صمیمی و دلنشین</h2>
+                <p>ما اینجا کلی دوست باحال داریم اینجا هممون با هم رفیقیم و از لحظات خودمون بهترین استفاده رو میبریم
+                    اینجا همه خوبن همه مهربونن و همه سعی میکنن بهترین آدم زندگیشون باشن
+                    پس شما هم به ما بپیوند.
+                </p>
+            </div>
         </div>
-        <div class="cell-content">
-            <a href="#">آموزش کامل HTML5</a>
-            <img src="img/html.jpg">
-        </div>
-        <div class="cell-content">
-            <a href="#">آموزش کامل CSS3</a>
-            <img src="img/css.jpg">
-        </div>
-        <div class="cell-content">
-            <a href="#">آموزش کامل Php</a>
-            <img src="img/php.jpg">
-        </div>
-        <div class="cell-content">
-            <a href="#">آموزش کامل JavaScript</a>
-            <img src="img/java.jpg">
-        </div>
-        <div class="cell-content">
-            <a href="#">آموزش ساخت فروشگاه اینترنتی</a>
-            <img src="img/store.jpg">
-        </div>
-        <div class="cell-content">
-           <a href="#">آموزش کامل bootstrap</a>
-           <img src="img/bootstrap.jpg">
-        </div>
-        <div class="cell-content">
-            <a href="#">آموزش کامل jquery</a>
-            <img src="img/jquery.jpg">
-        </div>
-        <div class="cell-content">
-            <a href="#">آموزش طراحی سایت</a>
-            <img src="img/web.jpg">
-        </div>
-    </div>
-    
+       </div>
     </section>
-    <section class="search">
-        <div class="container"></div>
-        <div class="search-box">
-        <h2>با یادگیری مهارت های جدید آینده خود را بسازید</h2>
-        <form>
-        <input type="text" placeholder="آموزش مورد نظر خود را جستجو کنید">
-        </form>
+
+    <section id="menu">
+        <div class="container">
+            <div class="menu">
+                <h2>فهرست انتخاب</h2>
+                <p>در این قسمت میتونید فهرست کوچکی از امکانات پر شمار ما رو مشاهده کنید
+                    انواع قهوه ها و همینطور انواع نوشیدنی ها و حتی انواع کیک های خوشمزه و دسرهای رنگارنگ
+                    شما با نگاه کردن به فهرست ما قطعا متوجه میشین که اینجا همه چیز گیر میاد
+                    البته نه چیزهای بدمزه اینجا همه چی طرفدار داره
+                    شما طرفدار کدوم خوردنی هستی؟
+                </p>
+
+                <a href="">دیدن بقیه فهرست</a>
+            </div>
+
+            <div class="menu-item">
+                <ul>
+                    <li><img src="images/manu.jpg" alt=""></li>
+                    <li><img src="images/manu2.jpg" alt=""></li>
+                    <li><img src="images/menu3.jpg" alt=""></li>
+                    <li><img src="images/menu4.jpg" alt=""></li>
+                </ul>
+            </div>
         </div>
-    
     </section>
-    
-    <section class="information">
-    <div class="container">
-        <div class="info">
-                   <img src="img/icon1.png" width="220">
-                   <h3>دانشجویان</h3>
-                   <p>60000 هزار دانشجو</p>
-               </div>
-               
-               <div class="info">
-                   <img src="img/icon2.png" width="220">
-                   <h3>دوره ها</h3>
-                   <p>1500 دوره آموزشی</p>
-               </div>
-               
-               <div class="info">
-                   <img src="img/icon3.png" width="220">
-                   <h3>امتیازات</h3>
-                   <p>5000 امتیاز 5 ستاره ای</p>
-               </div>
-               
-               <div class="info">
-                   <img src="img/icon4.png" width="220">
-                   <h3>ساعت آموزش</h3>
-                   <p>7000 ساعت آموزش</p>
-               </div>
-    </div>
-        </section>
-    
-    <footer>
-           
-           <span>
-               تمامی حقوق این سایت برای آموزش تک محفوظ میباشد
-           </span>
-           
-           <span>
-               
-               <a href="#">
-                   <i class="fab fa-facebook-square"></i>
-               </a>
-               <a href="#">
-                   <i class="fab fa-twitter"></i>
-               </a>
-               <a href="#">
-                   <i class="fab fa-instagram"></i>
-               </a>
-               
-           </span>
-       </footer>
-</body>    
 
+    <section id="hot">
+        <div class="hot-overlay">
+            <div class="container">
+                <div class="hot-description">
+                    <h2>داغ و دلنشین</h2>
+                    <p>با ما همیشه تازه ترین هارو امتحان کن</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <section id="delight">
+        <div class="container">
+            <div class="delight">
+                <div class="delight-description">
+                    <h2>خوشمزه و لذت بخش</h2>
+                    <p>ما اینجا کلی خوردنی خوشمزه داریم , کیک های مختلف برای تولدهای شما انواع قهوه ها و نوشیدنی های خنک و گرم
+                        ما دوس داریم شما زمانی که اینجا هستین بهترین لحظاتتون رو پشت سر بزارید پس نگران طعم و مزه نباشید اینجا همه چی خوشمزه و لذت بخشه.
+                    </p>
+                </div>
+                <div class="delight-image">
+                    <img src="images/delight.jpg" alt="">
+                    <img src="images/delighttwo.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <footer id="footer">
+        <div class="container">
+           <div class="footer">
+            <div class="About">
+                <h2>درباره ما</h2>
+                <p>ما با داستانی عاشقانه شروع کردیم ,
+                     داستانی که شروعش با یک قهوه دو نفره بود و حالا هر روز قهوه های دو نفره زوج های عاشق رو اینجا شاهد هستیم 
+                     .اینجا خونه ی عشقه و ما عاشق قهوه های دونفره ایم همین کافیه تا یه داستان فوق العاده رقم بخوره</p>
+            </div>
 
+            <div class="contact-us">
+                <div class="newslatter">
+                    <h2>عضویت خبرنامه</h2>
+                    <input type="email">
+                </div>
 
+                <div class="social">
+                    <h2>دنبال کنید</h2>
+                    <ul>
+                        <li><i class="fab fa-twitter"></i></li>
+                        <li><i class="fab fa-facebook-f"></i></li>
+                        <li><i class="fab fa-linkedin-in"></i></li>
+                        <li><i class="fab fa-google-plus-g"></i></li>
+                    </ul>
+                </div>
+            </div>
+           </div>
+        </div>
 
+        <div class="copy-right">
+            <div class="container">
+                <div class="copy-right-description">
+                    <h2>طراحی شده توسط بچه های تاپ لرن  </h2>
+                    <p>تمامی حقوق مادی و معنوی این طراحی متعلق به تیم تاپ لرن میباشد </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function(){
+            $('.hamburger-icon img').click(function(){
+                var responsivemenu=$('#responsive-navigation');
+                responsivemenu.show();
+                responsivemenu.animate({
+                    right:'0'
+                },400)
+                $('body').append('<div class="back-container"></div>');
+                $('.back-container').click(function(){
+                    var responsivemenu=$('#responsive-navigation');
+                    responsivemenu.animate({
+                    right:'-220px'
+                },400,function(){
+                    responsivemenu.hide();
+                });
+                $(this).remove(); 
+                })
+            })
+        })
+    </script>
+</body>
 </html>
