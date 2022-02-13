@@ -1,0 +1,116 @@
+@media screen and (max-width:1200px){
+    #our-story{
+        height: 400px;
+    }
+    #our-story .story-description h2{
+        margin-top: 100px;
+    }
+    #our-story .story-description p{
+        width:95%;
+    }
+    #our-story .story-img img{
+        height:400px;
+    }
+}
+@media screen and (max-width:992px){
+    header{
+        height: 600px;
+    }
+    header nav ul{
+        display: none;
+    }
+    header nav .hamburger-icon {
+        display: block;
+        width: 15%;
+        float: right;
+    }
+    header nav .hamburger-icon img{
+        width:55px;
+        margin-top: 10px;
+        cursor: pointer;
+    }
+    #responsive-navigation{
+        width: 220px;
+        height: 100vh;
+        background-color: rgba(0, 0, 0, 0.9);
+        display: block;
+        position: absolute;
+        top: 0;
+        right: -220px;
+        z-index: 1;
+        display: none;
+    } 
+    #responsive-navigation ul{
+        width: 100%;
+        height: 100%;
+        display:block;
+    }
+    #responsive-navigation ul li{
+        color: #fff;
+        width: 100%;
+        text-align: center;
+    }
+    .back-container{
+        position: absolute;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        background-color: rgba(0, 0, 0, .5);
+    }
+    header .header-title h2{
+        font-size: 40px;
+        transition: .5s all ease-in-out;
+    }
+    header .header-title p{
+        font-size: 25px;
+        margin-top: 30px;
+    }
+    #our-story{
+        height: 350px;
+    }
+    #our-story .story-description h2{
+        margin-top: 70px;
+    }
+    #our-story .story-img img{
+        height: 350px;
+    }
+}
+@media screen and (max-width:768px){
+    header .header-title h2{
+        font-size: 35px;
+    }    
+    header .header-title p{
+        width: 70%;
+        margin: 30px auto;
+    }
+    #our-story{
+        margin-top: 0;
+        height: 100%;
+    }
+    #our-story .story-description{
+        width: 100%;
+    }
+    #our-story .story-img {
+        width: 100%;
+    }
+}
+@media screen and (max-width:576px){
+    header{
+       height: 500px;    
+    }
+    header .header-title h2{
+        font-size: 28px;
+    }    
+    header .header-title p{
+        width: 85%;
+        font-size: 22px;
+        margin: 30px auto;
+    }
+    #our-story .story-description h2{
+        font-size: 25px;
+    }
+    #our-story .story-img img{
+        height:300px;
+    }
+}
