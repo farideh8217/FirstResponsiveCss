@@ -145,10 +145,6 @@
     #delight .delight .delight-description p{
         font-size: 20px;
     }  
-    
-    #delight .delight .delight-image img{
-        margin-right: 5px;
-    }
     footer .footer .contact-us{
         display: block;
         width: 50%;
@@ -161,11 +157,7 @@
         width: 100%;
         margin-top: 20px;
     } 
-    footer .footer .About p{
-        width: 100%;
-        font-size: 17px;
-    }               
-}
+    
 @media screen and (max-width:576px){
     header{
        height: 500px;    
@@ -208,7 +200,14 @@
     }  
     #delight .delight .delight-description{
         height: 350px;
-    }   
+    }
+    #delight .delight .delight-image img{
+        margin-right: 5px;
+    }  
+    footer .footer .About p{
+        width: 100%;
+        font-size: 17px;
+    }                
     footer .copy-right .copy-right-description h2{
         margin-top: 20px;
         font-size: 20px;
